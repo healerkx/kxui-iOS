@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60251F1B164559BD00C1F490 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60251F1A164559BD00C1F490 /* UIKit.framework */; };
+		60251F1D164559BD00C1F490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60251F1C164559BD00C1F490 /* Foundation.framework */; };
+		60251F1F164559BD00C1F490 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60251F1E164559BD00C1F490 /* CoreGraphics.framework */; };
+		60251F25164559BD00C1F490 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60251F23164559BD00C1F490 /* InfoPlist.strings */; };
+		60251F27164559BD00C1F490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F26164559BD00C1F490 /* main.m */; };
+		60251F2B164559BD00C1F490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F2A164559BD00C1F490 /* AppDelegate.m */; };
+		60251F2E164559BD00C1F490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F2D164559BD00C1F490 /* ViewController.m */; };
+		60251F3B164559FB00C1F490 /* libKxUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60251F3A164559FB00C1F490 /* libKxUI.a */; };
+		F24520DA17588598003D8C27 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F24520D917588598003D8C27 /* CatalogViewController.m */; };
+		F24520DD175885D1003D8C27 /* CatalogViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F24520DC175885D1003D8C27 /* CatalogViewCell.m */; };
+		F24B6397174DE57C00B27EAB /* ui in Resources */ = {isa = PBXBuildFile; fileRef = F24B6396174DE57C00B27EAB /* ui */; };
+		F24B64001757394F00B27EAB /* YahooSignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = F24B63FF1757394E00B27EAB /* YahooSignInView.m */; };
+		F24B6402175754F000B27EAB /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = F24B6401175754F000B27EAB /* Assets */; };
+		F250FEF4177E263500AA8E4D /* ErrorMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F250FEF3177E263500AA8E4D /* ErrorMessageView.m */; };
+		F250FEF7177F47C900AA8E4D /* TextBindView.m in Sources */ = {isa = PBXBuildFile; fileRef = F250FEF6177F47C900AA8E4D /* TextBindView.m */; };
+		F250FEFB177FFDA800AA8E4D /* WeiboCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F250FEFA177FFDA800AA8E4D /* WeiboCell.m */; };
+		F25A0ABA17F565160038D881 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F25A0AB917F565160038D881 /* libc++.dylib */; };
+		F27637F517671FCB00F877FC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F27637F417671FCB00F877FC /* Default@2x.png */; };
+		F27637F717671FD000F877FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F27637F617671FD000F877FC /* Default-568h@2x.png */; };
+		F2C8068117CF22CD00C85584 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C8068017CF22CD00C85584 /* MyView.m */; };
+		F2CCAD25176B0C0100618920 /* EditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CCAD24176B0C0100618920 /* EditorView.m */; };
+		F2DDE47E178D02B5001E5513 /* UIButtonEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DDE47D178D02B5001E5513 /* UIButtonEx.m */; };
+		F2DDE487178E6C00001E5513 /* WeiboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DDE486178E6C00001E5513 /* WeiboViewController.m */; };
+		F2E4F1101782C7F700796111 /* FacebookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E4F10F1782C7F700796111 /* FacebookCell.m */; };
+		F2E4F1131782C85F00796111 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E4F1121782C85F00796111 /* FacebookViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60251F16164559BD00C1F490 /* KxUITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxUITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60251F1A164559BD00C1F490 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60251F1C164559BD00C1F490 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60251F1E164559BD00C1F490 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60251F22164559BD00C1F490 /* KxUITest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KxUITest-Info.plist"; sourceTree = "<group>"; };
+		60251F24164559BD00C1F490 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60251F26164559BD00C1F490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60251F28164559BD00C1F490 /* KxUITest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KxUITest-Prefix.pch"; sourceTree = "<group>"; };
+		60251F29164559BD00C1F490 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60251F2A164559BD00C1F490 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60251F2C164559BD00C1F490 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60251F2D164559BD00C1F490 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60251F3A164559FB00C1F490 /* libKxUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKxUI.a; path = "../KxUI/build/Release-iphoneos/libKxUI.a"; sourceTree = "<group>"; };
+		F24520D817588598003D8C27 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
+		F24520D917588598003D8C27 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
+		F24520DB175885D1003D8C27 /* CatalogViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewCell.h; sourceTree = "<group>"; };
+		F24520DC175885D1003D8C27 /* CatalogViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewCell.m; sourceTree = "<group>"; };
+		F24B6396174DE57C00B27EAB /* ui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ui; sourceTree = "<group>"; };
+		F24B63FE1757394E00B27EAB /* YahooSignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooSignInView.h; sourceTree = "<group>"; };
+		F24B63FF1757394E00B27EAB /* YahooSignInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooSignInView.m; sourceTree = "<group>"; };
+		F24B6401175754F000B27EAB /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
+		F250FEF2177E263500AA8E4D /* ErrorMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorMessageView.h; sourceTree = "<group>"; };
+		F250FEF3177E263500AA8E4D /* ErrorMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorMessageView.m; sourceTree = "<group>"; };
+		F250FEF5177F47C900AA8E4D /* TextBindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBindView.h; sourceTree = "<group>"; };
+		F250FEF6177F47C900AA8E4D /* TextBindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBindView.m; sourceTree = "<group>"; };
+		F250FEF9177FFDA700AA8E4D /* WeiboCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboCell.h; sourceTree = "<group>"; };
+		F250FEFA177FFDA800AA8E4D /* WeiboCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboCell.m; sourceTree = "<group>"; };
+		F25A0AB917F565160038D881 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F27637F417671FCB00F877FC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F27637F617671FD000F877FC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F2C8067F17CF22CD00C85584 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		F2C8068017CF22CD00C85584 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		F2CCAD23176B0C0100618920 /* EditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorView.h; sourceTree = "<group>"; };
+		F2CCAD24176B0C0100618920 /* EditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorView.m; sourceTree = "<group>"; };
+		F2DDE47C178D02B4001E5513 /* UIButtonEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonEx.h; sourceTree = "<group>"; };
+		F2DDE47D178D02B5001E5513 /* UIButtonEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonEx.m; sourceTree = "<group>"; };
+		F2DDE485178E6C00001E5513 /* WeiboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiboViewController.h; sourceTree = "<group>"; };
+		F2DDE486178E6C00001E5513 /* WeiboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiboViewController.m; sourceTree = "<group>"; };
+		F2E4F10E1782C7F700796111 /* FacebookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookCell.h; sourceTree = "<group>"; };
+		F2E4F10F1782C7F700796111 /* FacebookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookCell.m; sourceTree = "<group>"; };
+		F2E4F1111782C85F00796111 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		F2E4F1121782C85F00796111 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60251F13164559BD00C1F490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25A0ABA17F565160038D881 /* libc++.dylib in Frameworks */,
+				60251F3B164559FB00C1F490 /* libKxUI.a in Frameworks */,
+				60251F1B164559BD00C1F490 /* UIKit.framework in Frameworks */,
+				60251F1D164559BD00C1F490 /* Foundation.framework in Frameworks */,
+				60251F1F164559BD00C1F490 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60251F0B164559BD00C1F490 = {
+			isa = PBXGroup;
+			children = (
+				F27637F617671FD000F877FC /* Default-568h@2x.png */,
+				F27637F417671FCB00F877FC /* Default@2x.png */,
+				60251F20164559BD00C1F490 /* KxUITest */,
+				60251F19164559BD00C1F490 /* Frameworks */,
+				60251F17164559BD00C1F490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60251F17164559BD00C1F490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60251F16164559BD00C1F490 /* KxUITest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60251F19164559BD00C1F490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25A0AB917F565160038D881 /* libc++.dylib */,
+				60251F3A164559FB00C1F490 /* libKxUI.a */,
+				60251F1A164559BD00C1F490 /* UIKit.framework */,
+				60251F1C164559BD00C1F490 /* Foundation.framework */,
+				60251F1E164559BD00C1F490 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60251F20164559BD00C1F490 /* KxUITest */ = {
+			isa = PBXGroup;
+			children = (
+				F24B6401175754F000B27EAB /* Assets */,
+				F24B6396174DE57C00B27EAB /* ui */,
+				60251FA31645607F00C1F490 /* MyViewsAndCells */,
+				60251F29164559BD00C1F490 /* AppDelegate.h */,
+				60251F2A164559BD00C1F490 /* AppDelegate.m */,
+				60251F2C164559BD00C1F490 /* ViewController.h */,
+				60251F2D164559BD00C1F490 /* ViewController.m */,
+				60251F21164559BD00C1F490 /* Supporting Files */,
+				F24520D817588598003D8C27 /* CatalogViewController.h */,
+				F24520D917588598003D8C27 /* CatalogViewController.m */,
+				F24520DB175885D1003D8C27 /* CatalogViewCell.h */,
+				F24520DC175885D1003D8C27 /* CatalogViewCell.m */,
+			);
+			path = KxUITest;
+			sourceTree = "<group>";
+		};
+		60251F21164559BD00C1F490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60251F22164559BD00C1F490 /* KxUITest-Info.plist */,
+				60251F23164559BD00C1F490 /* InfoPlist.strings */,
+				60251F26164559BD00C1F490 /* main.m */,
+				60251F28164559BD00C1F490 /* KxUITest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60251FA31645607F00C1F490 /* MyViewsAndCells */ = {
+			isa = PBXGroup;
+			children = (
+				F24B63FE1757394E00B27EAB /* YahooSignInView.h */,
+				F24B63FF1757394E00B27EAB /* YahooSignInView.m */,
+				F2CCAD23176B0C0100618920 /* EditorView.h */,
+				F2CCAD24176B0C0100618920 /* EditorView.m */,
+				F250FEF2177E263500AA8E4D /* ErrorMessageView.h */,
+				F250FEF3177E263500AA8E4D /* ErrorMessageView.m */,
+				F250FEF5177F47C900AA8E4D /* TextBindView.h */,
+				F250FEF6177F47C900AA8E4D /* TextBindView.m */,
+				F250FEF9177FFDA700AA8E4D /* WeiboCell.h */,
+				F250FEFA177FFDA800AA8E4D /* WeiboCell.m */,
+				F2DDE485178E6C00001E5513 /* WeiboViewController.h */,
+				F2DDE486178E6C00001E5513 /* WeiboViewController.m */,
+				F2E4F10E1782C7F700796111 /* FacebookCell.h */,
+				F2E4F10F1782C7F700796111 /* FacebookCell.m */,
+				F2E4F1111782C85F00796111 /* FacebookViewController.h */,
+				F2E4F1121782C85F00796111 /* FacebookViewController.m */,
+				F2DDE47C178D02B4001E5513 /* UIButtonEx.h */,
+				F2DDE47D178D02B5001E5513 /* UIButtonEx.m */,
+				F2C8067F17CF22CD00C85584 /* MyView.h */,
+				F2C8068017CF22CD00C85584 /* MyView.m */,
+			);
+			path = MyViewsAndCells;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60251F15164559BD00C1F490 /* KxUITest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60251F37164559BD00C1F490 /* Build configuration list for PBXNativeTarget "KxUITest" */;
+			buildPhases = (
+				60251F12164559BD00C1F490 /* Sources */,
+				60251F13164559BD00C1F490 /* Frameworks */,
+				60251F14164559BD00C1F490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KxUITest;
+			productName = KxUITest;
+			productReference = 60251F16164559BD00C1F490 /* KxUITest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60251F0D164559BD00C1F490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = healer;
+			};
+			buildConfigurationList = 60251F10164559BD00C1F490 /* Build configuration list for PBXProject "KxUITest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60251F0B164559BD00C1F490;
+			productRefGroup = 60251F17164559BD00C1F490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60251F15164559BD00C1F490 /* KxUITest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60251F14164559BD00C1F490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60251F25164559BD00C1F490 /* InfoPlist.strings in Resources */,
+				F24B6397174DE57C00B27EAB /* ui in Resources */,
+				F24B6402175754F000B27EAB /* Assets in Resources */,
+				F27637F517671FCB00F877FC /* Default@2x.png in Resources */,
+				F27637F717671FD000F877FC /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60251F12164559BD00C1F490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60251F27164559BD00C1F490 /* main.m in Sources */,
+				60251F2B164559BD00C1F490 /* AppDelegate.m in Sources */,
+				60251F2E164559BD00C1F490 /* ViewController.m in Sources */,
+				F24B64001757394F00B27EAB /* YahooSignInView.m in Sources */,
+				F24520DA17588598003D8C27 /* CatalogViewController.m in Sources */,
+				F24520DD175885D1003D8C27 /* CatalogViewCell.m in Sources */,
+				F2CCAD25176B0C0100618920 /* EditorView.m in Sources */,
+				F250FEF4177E263500AA8E4D /* ErrorMessageView.m in Sources */,
+				F250FEF7177F47C900AA8E4D /* TextBindView.m in Sources */,
+				F250FEFB177FFDA800AA8E4D /* WeiboCell.m in Sources */,
+				F2E4F1101782C7F700796111 /* FacebookCell.m in Sources */,
+				F2E4F1131782C85F00796111 /* FacebookViewController.m in Sources */,
+				F2DDE47E178D02B5001E5513 /* UIButtonEx.m in Sources */,
+				F2DDE487178E6C00001E5513 /* WeiboViewController.m in Sources */,
+				F2C8068117CF22CD00C85584 /* MyView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60251F23164559BD00C1F490 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60251F24164559BD00C1F490 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60251F35164559BD00C1F490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60251F36164559BD00C1F490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60251F38164559BD00C1F490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KxUITest/KxUITest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../KxUI/KxUI/Headers/**",
+					"../KxUI/KxUI/Headers/rapidxml/**",
+				);
+				INFOPLIST_FILE = "KxUITest/KxUITest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60251F39164559BD00C1F490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KxUITest/KxUITest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"../KxUI/KxUI/Headers/**",
+					"../KxUI/KxUI/Headers/rapidxml/**",
+				);
+				INFOPLIST_FILE = "KxUITest/KxUITest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				"OTHER_LDFLAGS[arch=*]" = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60251F10164559BD00C1F490 /* Build configuration list for PBXProject "KxUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60251F35164559BD00C1F490 /* Debug */,
+				60251F36164559BD00C1F490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60251F37164559BD00C1F490 /* Build configuration list for PBXNativeTarget "KxUITest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60251F38164559BD00C1F490 /* Debug */,
+				60251F39164559BD00C1F490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60251F0D164559BD00C1F490 /* Project object */;
+}

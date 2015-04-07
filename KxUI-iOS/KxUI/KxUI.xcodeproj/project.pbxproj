@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6020082C1646BC54006707F0 /* KxUIXmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 602008231646BC54006707F0 /* KxUIXmlParser.h */; };
+		6020082D1646BC54006707F0 /* rapidxml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 602008271646BC54006707F0 /* rapidxml.hpp */; };
+		6020082E1646BC54006707F0 /* rapidxml_iterators.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 602008281646BC54006707F0 /* rapidxml_iterators.hpp */; };
+		6020082F1646BC54006707F0 /* rapidxml_print.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 602008291646BC54006707F0 /* rapidxml_print.hpp */; };
+		602008301646BC54006707F0 /* rapidxml_utils.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6020082A1646BC54006707F0 /* rapidxml_utils.hpp */; };
+		60251EFE1645596800C1F490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60251EFD1645596800C1F490 /* Foundation.framework */; };
+		60251F8216455AC500C1F490 /* KxBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F4D16455AC500C1F490 /* KxBind.m */; };
+		60251F8316455AC500C1F490 /* KxLayout+CodeGen.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F4F16455AC500C1F490 /* KxLayout+CodeGen.m */; };
+		60251F8416455AC500C1F490 /* KxLayout+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F5116455AC500C1F490 /* KxLayout+Debug.m */; };
+		60251F8516455AC500C1F490 /* KxLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F5316455AC500C1F490 /* KxLayout.m */; };
+		60251F8616455AC500C1F490 /* KxLayoutBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F5516455AC500C1F490 /* KxLayoutBox.m */; };
+		60251F8716455AC500C1F490 /* KxLayoutBoxRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F5716455AC500C1F490 /* KxLayoutBoxRoot.m */; };
+		60251F8816455AC500C1F490 /* KxLayoutResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F5A16455AC500C1F490 /* KxLayoutResult.m */; };
+		60251F8916455AC500C1F490 /* KxUIBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F5D16455AC500C1F490 /* KxUIBase.m */; };
+		60251F8A16455AC500C1F490 /* KxUIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F6016455AC500C1F490 /* KxUIQuery.m */; };
+		60251F8B16455AC500C1F490 /* KxUIQueryWithBind.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F6216455AC500C1F490 /* KxUIQueryWithBind.m */; };
+		60251F8C16455AC500C1F490 /* KxUIXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F6416455AC500C1F490 /* KxUIXmlParser.m */; };
+		60251F8E16455AC500C1F490 /* NSString+KxUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F6A16455AC500C1F490 /* NSString+KxUI.m */; };
+		60251F8F16455AC500C1F490 /* KxStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F7416455AC500C1F490 /* KxStyle.m */; };
+		60251F9016455AC500C1F490 /* KxStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F7616455AC500C1F490 /* KxStyles.m */; };
+		60251F9116455AC500C1F490 /* KxUICell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F7C16455AC500C1F490 /* KxUICell.m */; };
+		60251F9216455AC500C1F490 /* KxUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60251F7E16455AC500C1F490 /* KxUIView.m */; };
+		60251F9316455AC500C1F490 /* RapidXml.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60251F8116455AC500C1F490 /* RapidXml.mm */; };
+		60251F9E16455D4900C1F490 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60251F9D16455D4900C1F490 /* UIKit.framework */; };
+		60251FA016455D7100C1F490 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60251F9F16455D7100C1F490 /* CoreGraphics.framework */; };
+		6053BFC21646A257007D0B13 /* KxUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFBF1646A257007D0B13 /* KxUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFC31646A257007D0B13 /* KxUICell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFC01646A257007D0B13 /* KxUICell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFC41646A257007D0B13 /* KxUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFC11646A257007D0B13 /* KxUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFD31646A2FD007D0B13 /* KxBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFC51646A2FD007D0B13 /* KxBind.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFD41646A2FD007D0B13 /* KxLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFC61646A2FD007D0B13 /* KxLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFD51646A2FD007D0B13 /* KxLayout+CodeGen.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFC71646A2FD007D0B13 /* KxLayout+CodeGen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFD61646A2FD007D0B13 /* KxLayout+Debug.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFC81646A2FD007D0B13 /* KxLayout+Debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFD71646A2FD007D0B13 /* KxLayoutBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFC91646A2FD007D0B13 /* KxLayoutBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFD81646A2FD007D0B13 /* KxLayoutBoxRoot.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFCA1646A2FD007D0B13 /* KxLayoutBoxRoot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFD91646A2FD007D0B13 /* KxLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFCB1646A2FD007D0B13 /* KxLayoutDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFDA1646A2FD007D0B13 /* KxLayoutResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFCC1646A2FD007D0B13 /* KxLayoutResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFDB1646A2FD007D0B13 /* KxLayoutUICellConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFCD1646A2FD007D0B13 /* KxLayoutUICellConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFDC1646A2FD007D0B13 /* KxUIBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFCE1646A2FD007D0B13 /* KxUIBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFDD1646A2FD007D0B13 /* KxUIDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFCF1646A2FD007D0B13 /* KxUIDef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFDE1646A2FD007D0B13 /* KxUIQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFD01646A2FD007D0B13 /* KxUIQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFDF1646A2FD007D0B13 /* KxUIQueryWithBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFD11646A2FD007D0B13 /* KxUIQueryWithBind.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFE31646A324007D0B13 /* KxStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFE11646A324007D0B13 /* KxStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6053BFE41646A324007D0B13 /* KxStyles.h in Headers */ = {isa = PBXBuildFile; fileRef = 6053BFE21646A324007D0B13 /* KxStyles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F24DC18F1778F27800566844 /* WidgetsFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = F24DC18D1778F27800566844 /* WidgetsFactory.h */; };
+		F24DC1901778F27800566844 /* WidgetsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F24DC18E1778F27800566844 /* WidgetsFactory.m */; };
+		F25F592017BA152F008CDAA3 /* KxTheme.h in Headers */ = {isa = PBXBuildFile; fileRef = F25F591E17BA152F008CDAA3 /* KxTheme.h */; };
+		F25F592317BA15A5008CDAA3 /* KxTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F25F592217BA15A5008CDAA3 /* KxTheme.m */; };
+		F27637FA1767265900F877FC /* KxDataEx.h in Headers */ = {isa = PBXBuildFile; fileRef = F27637F81767265900F877FC /* KxDataEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F27637FB1767265900F877FC /* KxDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F27637F91767265900F877FC /* KxDataEx.m */; };
+		F28929161840AD3F006517DE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F28929151840AD3F006517DE /* libc++.dylib */; };
+		F2DDE47A178BFCA3001E5513 /* NSString+KxUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DDE478178BFCA3001E5513 /* NSString+KxUI.h */; };
+		F2DDE47B178BFCA3001E5513 /* UIColor+KxUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DDE479178BFCA3001E5513 /* UIColor+KxUI.h */; };
+		F2E4F14E178574EB00796111 /* UIColor+KxUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E4F14C178574EB00796111 /* UIColor+KxUI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60251EF81645596800C1F490 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		602008231646BC54006707F0 /* KxUIXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxUIXmlParser.h; sourceTree = "<group>"; };
+		602008251646BC54006707F0 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		602008261646BC54006707F0 /* manual.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = manual.html; sourceTree = "<group>"; };
+		602008271646BC54006707F0 /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
+		602008281646BC54006707F0 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		602008291646BC54006707F0 /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		6020082A1646BC54006707F0 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		6020082B1646BC54006707F0 /* RapidXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RapidXml.h; sourceTree = "<group>"; };
+		60251EFA1645596800C1F490 /* libKxUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKxUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		60251EFD1645596800C1F490 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60251F011645596800C1F490 /* KxUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KxUI-Prefix.pch"; sourceTree = "<group>"; };
+		60251F4616455AC500C1F490 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		60251F4D16455AC500C1F490 /* KxBind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxBind.m; sourceTree = "<group>"; };
+		60251F4F16455AC500C1F490 /* KxLayout+CodeGen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KxLayout+CodeGen.m"; sourceTree = "<group>"; };
+		60251F5116455AC500C1F490 /* KxLayout+Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KxLayout+Debug.m"; sourceTree = "<group>"; };
+		60251F5316455AC500C1F490 /* KxLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxLayout.m; sourceTree = "<group>"; };
+		60251F5516455AC500C1F490 /* KxLayoutBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxLayoutBox.m; sourceTree = "<group>"; };
+		60251F5716455AC500C1F490 /* KxLayoutBoxRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxLayoutBoxRoot.m; sourceTree = "<group>"; };
+		60251F5A16455AC500C1F490 /* KxLayoutResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxLayoutResult.m; sourceTree = "<group>"; };
+		60251F5D16455AC500C1F490 /* KxUIBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxUIBase.m; sourceTree = "<group>"; };
+		60251F6016455AC500C1F490 /* KxUIQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxUIQuery.m; sourceTree = "<group>"; };
+		60251F6216455AC500C1F490 /* KxUIQueryWithBind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxUIQueryWithBind.m; sourceTree = "<group>"; };
+		60251F6416455AC500C1F490 /* KxUIXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxUIXmlParser.m; sourceTree = "<group>"; };
+		60251F6A16455AC500C1F490 /* NSString+KxUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KxUI.m"; sourceTree = "<group>"; };
+		60251F7416455AC500C1F490 /* KxStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxStyle.m; sourceTree = "<group>"; };
+		60251F7616455AC500C1F490 /* KxStyles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxStyles.m; sourceTree = "<group>"; };
+		60251F7C16455AC500C1F490 /* KxUICell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxUICell.m; sourceTree = "<group>"; };
+		60251F7E16455AC500C1F490 /* KxUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxUIView.m; sourceTree = "<group>"; };
+		60251F8116455AC500C1F490 /* RapidXml.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RapidXml.mm; sourceTree = "<group>"; };
+		60251F9D16455D4900C1F490 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60251F9F16455D7100C1F490 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6053BFBF1646A257007D0B13 /* KxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUI.h; path = KxUI/Headers/KxUI.h; sourceTree = "<group>"; };
+		6053BFC01646A257007D0B13 /* KxUICell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUICell.h; path = KxUI/Headers/KxUICell.h; sourceTree = "<group>"; };
+		6053BFC11646A257007D0B13 /* KxUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUIView.h; path = KxUI/Headers/KxUIView.h; sourceTree = "<group>"; };
+		6053BFC51646A2FD007D0B13 /* KxBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxBind.h; path = KxUI/Headers/KxBind.h; sourceTree = "<group>"; };
+		6053BFC61646A2FD007D0B13 /* KxLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxLayout.h; path = KxUI/Headers/KxLayout.h; sourceTree = "<group>"; };
+		6053BFC71646A2FD007D0B13 /* KxLayout+CodeGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KxLayout+CodeGen.h"; path = "KxUI/Headers/KxLayout+CodeGen.h"; sourceTree = "<group>"; };
+		6053BFC81646A2FD007D0B13 /* KxLayout+Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KxLayout+Debug.h"; path = "KxUI/Headers/KxLayout+Debug.h"; sourceTree = "<group>"; };
+		6053BFC91646A2FD007D0B13 /* KxLayoutBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxLayoutBox.h; path = KxUI/Headers/KxLayoutBox.h; sourceTree = "<group>"; };
+		6053BFCA1646A2FD007D0B13 /* KxLayoutBoxRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxLayoutBoxRoot.h; path = KxUI/Headers/KxLayoutBoxRoot.h; sourceTree = "<group>"; };
+		6053BFCB1646A2FD007D0B13 /* KxLayoutDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxLayoutDelegate.h; path = KxUI/Headers/KxLayoutDelegate.h; sourceTree = "<group>"; };
+		6053BFCC1646A2FD007D0B13 /* KxLayoutResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxLayoutResult.h; path = KxUI/Headers/KxLayoutResult.h; sourceTree = "<group>"; };
+		6053BFCD1646A2FD007D0B13 /* KxLayoutUICellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxLayoutUICellConfig.h; path = KxUI/Headers/KxLayoutUICellConfig.h; sourceTree = "<group>"; };
+		6053BFCE1646A2FD007D0B13 /* KxUIBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUIBase.h; path = KxUI/Headers/KxUIBase.h; sourceTree = "<group>"; };
+		6053BFCF1646A2FD007D0B13 /* KxUIDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUIDef.h; path = KxUI/Headers/KxUIDef.h; sourceTree = "<group>"; };
+		6053BFD01646A2FD007D0B13 /* KxUIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUIQuery.h; path = KxUI/Headers/KxUIQuery.h; sourceTree = "<group>"; };
+		6053BFD11646A2FD007D0B13 /* KxUIQueryWithBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUIQueryWithBind.h; path = KxUI/Headers/KxUIQueryWithBind.h; sourceTree = "<group>"; };
+		6053BFE11646A324007D0B13 /* KxStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxStyle.h; path = KxUI/Headers/KxStyle.h; sourceTree = "<group>"; };
+		6053BFE21646A324007D0B13 /* KxStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxStyles.h; path = KxUI/Headers/KxStyles.h; sourceTree = "<group>"; };
+		F24B6399174F07F300B27EAB /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libc++.dylib"; sourceTree = "<absolute>"; };
+		F24DC18D1778F27800566844 /* WidgetsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetsFactory.h; path = KxUI/Widgets/WidgetsFactory.h; sourceTree = "<group>"; };
+		F24DC18E1778F27800566844 /* WidgetsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WidgetsFactory.m; path = KxUI/Widgets/WidgetsFactory.m; sourceTree = "<group>"; };
+		F250FEF8177FF60D00AA8E4D /* Features.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Features.txt; sourceTree = "<group>"; };
+		F25F591E17BA152F008CDAA3 /* KxTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxTheme.h; path = KxUI/Headers/KxTheme.h; sourceTree = "<group>"; };
+		F25F592217BA15A5008CDAA3 /* KxTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxTheme.m; sourceTree = "<group>"; };
+		F27637F81767265900F877FC /* KxDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxDataEx.h; path = KxUI/Headers/KxDataEx.h; sourceTree = "<group>"; };
+		F27637F91767265900F877FC /* KxDataEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxDataEx.m; path = ../Headers/KxDataEx.m; sourceTree = "<group>"; };
+		F28929151840AD3F006517DE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F2DDE478178BFCA3001E5513 /* NSString+KxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+KxUI.h"; path = "KxUI/Headers/NSString+KxUI.h"; sourceTree = "<group>"; };
+		F2DDE479178BFCA3001E5513 /* UIColor+KxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KxUI.h"; path = "KxUI/Headers/UIColor+KxUI.h"; sourceTree = "<group>"; };
+		F2E4F14C178574EB00796111 /* UIColor+KxUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KxUI.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60251EF71645596800C1F490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28929161840AD3F006517DE /* libc++.dylib in Frameworks */,
+				60251FA016455D7100C1F490 /* CoreGraphics.framework in Frameworks */,
+				60251F9E16455D4900C1F490 /* UIKit.framework in Frameworks */,
+				60251EFE1645596800C1F490 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602008241646BC54006707F0 /* rapidxml */ = {
+			isa = PBXGroup;
+			children = (
+				602008251646BC54006707F0 /* license.txt */,
+				602008261646BC54006707F0 /* manual.html */,
+				602008271646BC54006707F0 /* rapidxml.hpp */,
+				602008281646BC54006707F0 /* rapidxml_iterators.hpp */,
+				602008291646BC54006707F0 /* rapidxml_print.hpp */,
+				6020082A1646BC54006707F0 /* rapidxml_utils.hpp */,
+			);
+			path = rapidxml;
+			sourceTree = "<group>";
+		};
+		60251EEF1645596800C1F490 = {
+			isa = PBXGroup;
+			children = (
+				F24DC18C1778F1D500566844 /* Widgets */,
+				6053BFBD1646A240007D0B13 /* Headers */,
+				60251F4416455AC500C1F490 /* en.lproj */,
+				60251F4B16455AC500C1F490 /* Layout */,
+				60251F6816455AC500C1F490 /* Others */,
+				60251F7216455AC500C1F490 /* Styles */,
+				60251F7916455AC500C1F490 /* UIBase */,
+				60251F7F16455AC500C1F490 /* XML */,
+				60251EFF1645596800C1F490 /* KxUI */,
+				60251EFC1645596800C1F490 /* Frameworks */,
+				60251EFB1645596800C1F490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60251EFB1645596800C1F490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60251EFA1645596800C1F490 /* libKxUI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60251EFC1645596800C1F490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F28929151840AD3F006517DE /* libc++.dylib */,
+				F24B6399174F07F300B27EAB /* libc++.dylib */,
+				60251F9F16455D7100C1F490 /* CoreGraphics.framework */,
+				60251F9D16455D4900C1F490 /* UIKit.framework */,
+				60251EFD1645596800C1F490 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60251EFF1645596800C1F490 /* KxUI */ = {
+			isa = PBXGroup;
+			children = (
+				60251F001645596800C1F490 /* Supporting Files */,
+			);
+			path = KxUI;
+			sourceTree = "<group>";
+		};
+		60251F001645596800C1F490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60251F011645596800C1F490 /* KxUI-Prefix.pch */,
+				F250FEF8177FF60D00AA8E4D /* Features.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60251F4416455AC500C1F490 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				60251F4516455AC500C1F490 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = KxUI/en.lproj;
+			sourceTree = "<group>";
+		};
+		60251F4B16455AC500C1F490 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				F27637F91767265900F877FC /* KxDataEx.m */,
+				60251F4D16455AC500C1F490 /* KxBind.m */,
+				60251F4F16455AC500C1F490 /* KxLayout+CodeGen.m */,
+				60251F5116455AC500C1F490 /* KxLayout+Debug.m */,
+				60251F5316455AC500C1F490 /* KxLayout.m */,
+				60251F5516455AC500C1F490 /* KxLayoutBox.m */,
+				60251F5716455AC500C1F490 /* KxLayoutBoxRoot.m */,
+				60251F5A16455AC500C1F490 /* KxLayoutResult.m */,
+				60251F5D16455AC500C1F490 /* KxUIBase.m */,
+				60251F6016455AC500C1F490 /* KxUIQuery.m */,
+				60251F6216455AC500C1F490 /* KxUIQueryWithBind.m */,
+				60251F6416455AC500C1F490 /* KxUIXmlParser.m */,
+			);
+			name = Layout;
+			path = KxUI/Layout;
+			sourceTree = "<group>";
+		};
+		60251F6816455AC500C1F490 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				60251F6A16455AC500C1F490 /* NSString+KxUI.m */,
+				F2E4F14C178574EB00796111 /* UIColor+KxUI.m */,
+			);
+			name = Others;
+			path = KxUI/Others;
+			sourceTree = "<group>";
+		};
+		60251F7216455AC500C1F490 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				F25F592217BA15A5008CDAA3 /* KxTheme.m */,
+				60251F7416455AC500C1F490 /* KxStyle.m */,
+				60251F7616455AC500C1F490 /* KxStyles.m */,
+			);
+			name = Styles;
+			path = KxUI/Styles;
+			sourceTree = "<group>";
+		};
+		60251F7916455AC500C1F490 /* UIBase */ = {
+			isa = PBXGroup;
+			children = (
+				60251F7C16455AC500C1F490 /* KxUICell.m */,
+				60251F7E16455AC500C1F490 /* KxUIView.m */,
+			);
+			name = UIBase;
+			path = KxUI/UIBase;
+			sourceTree = "<group>";
+		};
+		60251F7F16455AC500C1F490 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				602008231646BC54006707F0 /* KxUIXmlParser.h */,
+				602008241646BC54006707F0 /* rapidxml */,
+				6020082B1646BC54006707F0 /* RapidXml.h */,
+				60251F8116455AC500C1F490 /* RapidXml.mm */,
+			);
+			name = XML;
+			path = KxUI/XML;
+			sourceTree = "<group>";
+		};
+		6053BFBD1646A240007D0B13 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				6053BFE11646A324007D0B13 /* KxStyle.h */,
+				6053BFE21646A324007D0B13 /* KxStyles.h */,
+				6053BFC51646A2FD007D0B13 /* KxBind.h */,
+				6053BFC61646A2FD007D0B13 /* KxLayout.h */,
+				6053BFC71646A2FD007D0B13 /* KxLayout+CodeGen.h */,
+				6053BFC81646A2FD007D0B13 /* KxLayout+Debug.h */,
+				6053BFC91646A2FD007D0B13 /* KxLayoutBox.h */,
+				6053BFCA1646A2FD007D0B13 /* KxLayoutBoxRoot.h */,
+				6053BFCB1646A2FD007D0B13 /* KxLayoutDelegate.h */,
+				6053BFCC1646A2FD007D0B13 /* KxLayoutResult.h */,
+				6053BFCD1646A2FD007D0B13 /* KxLayoutUICellConfig.h */,
+				6053BFCE1646A2FD007D0B13 /* KxUIBase.h */,
+				6053BFCF1646A2FD007D0B13 /* KxUIDef.h */,
+				6053BFD01646A2FD007D0B13 /* KxUIQuery.h */,
+				6053BFD11646A2FD007D0B13 /* KxUIQueryWithBind.h */,
+				6053BFBF1646A257007D0B13 /* KxUI.h */,
+				6053BFC01646A257007D0B13 /* KxUICell.h */,
+				6053BFC11646A257007D0B13 /* KxUIView.h */,
+				F27637F81767265900F877FC /* KxDataEx.h */,
+				F2DDE478178BFCA3001E5513 /* NSString+KxUI.h */,
+				F2DDE479178BFCA3001E5513 /* UIColor+KxUI.h */,
+				F25F591E17BA152F008CDAA3 /* KxTheme.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		F24DC18C1778F1D500566844 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F24DC18D1778F27800566844 /* WidgetsFactory.h */,
+				F24DC18E1778F27800566844 /* WidgetsFactory.m */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60251FCC1645627800C1F490 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6053BFC21646A257007D0B13 /* KxUI.h in Headers */,
+				6053BFC31646A257007D0B13 /* KxUICell.h in Headers */,
+				6053BFC41646A257007D0B13 /* KxUIView.h in Headers */,
+				6053BFD31646A2FD007D0B13 /* KxBind.h in Headers */,
+				6053BFD41646A2FD007D0B13 /* KxLayout.h in Headers */,
+				6053BFD51646A2FD007D0B13 /* KxLayout+CodeGen.h in Headers */,
+				6053BFD61646A2FD007D0B13 /* KxLayout+Debug.h in Headers */,
+				6053BFD71646A2FD007D0B13 /* KxLayoutBox.h in Headers */,
+				6053BFD81646A2FD007D0B13 /* KxLayoutBoxRoot.h in Headers */,
+				6053BFD91646A2FD007D0B13 /* KxLayoutDelegate.h in Headers */,
+				6053BFDA1646A2FD007D0B13 /* KxLayoutResult.h in Headers */,
+				6053BFDB1646A2FD007D0B13 /* KxLayoutUICellConfig.h in Headers */,
+				6053BFDC1646A2FD007D0B13 /* KxUIBase.h in Headers */,
+				6053BFDD1646A2FD007D0B13 /* KxUIDef.h in Headers */,
+				6053BFDE1646A2FD007D0B13 /* KxUIQuery.h in Headers */,
+				6053BFDF1646A2FD007D0B13 /* KxUIQueryWithBind.h in Headers */,
+				6053BFE31646A324007D0B13 /* KxStyle.h in Headers */,
+				6053BFE41646A324007D0B13 /* KxStyles.h in Headers */,
+				F27637FA1767265900F877FC /* KxDataEx.h in Headers */,
+				6020082C1646BC54006707F0 /* KxUIXmlParser.h in Headers */,
+				6020082D1646BC54006707F0 /* rapidxml.hpp in Headers */,
+				6020082E1646BC54006707F0 /* rapidxml_iterators.hpp in Headers */,
+				6020082F1646BC54006707F0 /* rapidxml_print.hpp in Headers */,
+				602008301646BC54006707F0 /* rapidxml_utils.hpp in Headers */,
+				F24DC18F1778F27800566844 /* WidgetsFactory.h in Headers */,
+				F2DDE47A178BFCA3001E5513 /* NSString+KxUI.h in Headers */,
+				F2DDE47B178BFCA3001E5513 /* UIColor+KxUI.h in Headers */,
+				F25F592017BA152F008CDAA3 /* KxTheme.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60251EF91645596800C1F490 /* KxUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60251F081645596800C1F490 /* Build configuration list for PBXNativeTarget "KxUI" */;
+			buildPhases = (
+				60251EF61645596800C1F490 /* Sources */,
+				60251EF71645596800C1F490 /* Frameworks */,
+				60251EF81645596800C1F490 /* Copy Files */,
+				60251FCC1645627800C1F490 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KxUI;
+			productName = KxUI;
+			productReference = 60251EFA1645596800C1F490 /* libKxUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60251EF11645596800C1F490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = healer;
+			};
+			buildConfigurationList = 60251EF41645596800C1F490 /* Build configuration list for PBXProject "KxUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60251EEF1645596800C1F490;
+			productRefGroup = 60251EFB1645596800C1F490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60251EF91645596800C1F490 /* KxUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60251EF61645596800C1F490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60251F8216455AC500C1F490 /* KxBind.m in Sources */,
+				60251F8316455AC500C1F490 /* KxLayout+CodeGen.m in Sources */,
+				60251F8416455AC500C1F490 /* KxLayout+Debug.m in Sources */,
+				60251F8516455AC500C1F490 /* KxLayout.m in Sources */,
+				60251F8616455AC500C1F490 /* KxLayoutBox.m in Sources */,
+				60251F8716455AC500C1F490 /* KxLayoutBoxRoot.m in Sources */,
+				60251F8816455AC500C1F490 /* KxLayoutResult.m in Sources */,
+				60251F8916455AC500C1F490 /* KxUIBase.m in Sources */,
+				60251F8A16455AC500C1F490 /* KxUIQuery.m in Sources */,
+				60251F8B16455AC500C1F490 /* KxUIQueryWithBind.m in Sources */,
+				60251F8C16455AC500C1F490 /* KxUIXmlParser.m in Sources */,
+				60251F8E16455AC500C1F490 /* NSString+KxUI.m in Sources */,
+				60251F8F16455AC500C1F490 /* KxStyle.m in Sources */,
+				60251F9016455AC500C1F490 /* KxStyles.m in Sources */,
+				60251F9116455AC500C1F490 /* KxUICell.m in Sources */,
+				60251F9216455AC500C1F490 /* KxUIView.m in Sources */,
+				60251F9316455AC500C1F490 /* RapidXml.mm in Sources */,
+				F27637FB1767265900F877FC /* KxDataEx.m in Sources */,
+				F24DC1901778F27800566844 /* WidgetsFactory.m in Sources */,
+				F2E4F14E178574EB00796111 /* UIColor+KxUI.m in Sources */,
+				F25F592317BA15A5008CDAA3 /* KxTheme.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60251F4516455AC500C1F490 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60251F4616455AC500C1F490 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60251F061645596800C1F490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60251F071645596800C1F490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60251F091645596800C1F490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = NO;
+				DSTROOT = /tmp/KxUI.dst;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KxUI/KxUI-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60251F0A1645596800C1F490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_LINK_OBJC_RUNTIME = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = NO;
+				DSTROOT = /tmp/KxUI.dst;
+				GCC_ENABLE_BUILTIN_FUNCTIONS = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_LINK_WITH_DYNAMIC_LIBRARIES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KxUI/KxUI-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60251EF41645596800C1F490 /* Build configuration list for PBXProject "KxUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60251F061645596800C1F490 /* Debug */,
+				60251F071645596800C1F490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60251F081645596800C1F490 /* Build configuration list for PBXNativeTarget "KxUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60251F091645596800C1F490 /* Debug */,
+				60251F0A1645596800C1F490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60251EF11645596800C1F490 /* Project object */;
+}

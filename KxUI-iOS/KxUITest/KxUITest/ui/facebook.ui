@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+    <layout>
+        <vbox id="root">
+            
+            <!-- User informations -->
+            <vbox spread="true">
+                <!-- For background - Header Part-->
+                <hbox id="header" background-image="Assets/facebook_cell_header" spread="true" height="10"/>
+                
+                <hbox id="avt-container" spread="true" background-image="Assets/facebook_cell_body">
+                    <!-- Avatar -->
+                    <hbox id="avatar" width="40" height="40" margin="5,5,5,25"></hbox>
+                    
+                    <vbox spread="true">
+                        <hbox id="title" spread="true" min-height="20" margin="3,3,3,3"></hbox>
+                        <hbox id="sub-title" spread="true" min-height="20" margin="2,2,2,3"></hbox>
+                    </vbox>
+                    <vbox id="like-user" background-image="Assets/like-user" width="32" height="30" margin="10, 25, 10, 10"></vbox>
+                </hbox>
+            </vbox>
+            <!-- Content -->
+            <vbox id="content-container" spread="true" background-image="Assets/facebook_cell_body">
+                <hbox id="text" width="280" min-height="50" margin="10, 20, 10, 20"></hbox>
+                <vbox align="center" spread="true">
+                    <hbox id="image" width="240" height="180"></hbox>
+                </vbox>
+                <hbox margin="5,5,5,5">
+                    <hbox id="like-count" width="100" height="14" margin="0, 0, 0, 20"></hbox>
+                    <hbox id="comments-count" width="100" height="14" margin="0, 0, 0, 20"></hbox>
+                </hbox>
+            </vbox>
+            
+            <!-- Operation bar -->
+            <hbox id="op-container" spread="true" height="22" vertical-align="bottom" background-image="Assets/facebook_cell_body2">
+                <hbox spread="true" vertical-align="center">
+                    <hbox id="like-icon" background-image="Assets/like" height="15" width="15" margin="0, 0, 0, 20"></hbox>
+                    <hbox id="like" spread="true" height="16" text="Like" margin-left="5"></hbox>
+                </hbox>
+
+                <hbox spread="true" vertical-align="center">
+                    <hbox id="comment-icon" background-image="Assets/like" height="15" width="15" margin="0, 0, 0, 20"></hbox>
+                    <hbox id="comment" spread="true" height="16" text="Comment" margin-left="5"></hbox>
+                </hbox>
+
+                <hbox spread="true" vertical-align="center">
+                    <hbox id="share-icon" background-image="Assets/like" height="15" width="15" margin="0, 0, 0, 20"></hbox>                    
+                    <hbox id="share" spread="true" height="16" text="Share" margin-left="5"></hbox>
+                </hbox>
+            </hbox>
+            <hbox id="bottom" spread="true" height="18" background-image="Assets/facebook_cell_bottom"/>
+        </vbox>
+    </layout>
+</ui>

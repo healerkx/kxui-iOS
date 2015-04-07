@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+    <styles>
+        <style name="bar-text" font-size="12" ></style>
+    </styles>
+    <layout>
+        <hbox id="root">
+            <!-- Left Avatar -->
+            <hbox id="avatar" width="34" height="34" margin="10, 5, 10, 5"></hbox>
+            
+            <!-- Right Part -->
+            <vbox id="right-part" spread="true">
+                <hbox id="name" spread="true" margin="10,5,3,5"></hbox>
+                <hbox id="text-content" spread="true" margin="3,5,5,5" text="转发微博"></hbox>
+                <vbox id="image" height="40" spread="true"/>
+                <vbox id="repost" ref-src="weibo-repost"/>
+                <!-- Operator bar -->
+                <hbox id="bar" spread="true" margin="2, 2, 2, 2">
+                    <hbox id="post-time" min-width="80" height="15" style="bar-text"></hbox>
+                    <hbox id="post-from" min-width="80" height="15" style="bar-text"></hbox>
+                    <hbox id="like-count" spread="true" height="15" style="bar-text" content-align="right"></hbox>
+                </hbox>
+            </vbox>
+        </hbox>
+    </layout>
+</ui>

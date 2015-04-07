@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+    <styles>
+        <style name="title1" font-size="16" ></style>
+        <style name="title2" font-size="14" bold="true"></style>
+        <style name="title3" font-size="14" font-color="#ff00ff"></style>
+        <style name="title4" font-size="14" font-color="#ff1c1c"></style>
+        <style name="title5" font-size="12" font-color="#0000FF"></style>
+    </styles>
+    <layout>
+        <vbox id="root">
+            <hbox content-align="center" style="title1" text="Text Render Demo" margin="5,5,15,5" spread="true" height="20"></hbox>
+            
+            <vbox id="t1" spread="true" style="title2" height="25"></vbox>
+            
+            <!-- Height will be calculated automatically -->
+            <hbox>
+                <vbox id="t2-l" width="100" style="title3" margin="5,5,5,5"></vbox>
+                <vbox id="t2-r" width="100" style="title4" margin="5,5,5,5"></vbox>
+            </hbox>
+            
+            <!-- content-align is right -->
+            <vbox id="t3" width="200" content-align="right" margin="5,5,5,5"></vbox>
+            
+            <!-- content-align is center -->
+            <vbox id="t4" spread="true" height="40" content-align="center"></vbox>
+            
+            <!-- Override the bold attribute -->
+            <vbox id="t5" height="20" max-width="300" style="title4" bold="true"></vbox>
+            
+            <!-- text attribute with style -->
+            <vbox id="t6" height="80" spread="true" margin="5,5,5,5" style="title5"
+                text="No need bind text for static text. using text attribute would be OK."></vbox>
+             
+        </vbox>
+    </layout>
+</ui>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>32900C42-E01C-480F-938B-81A598E8C8A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KxUI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>32C70F35-1B6F-4220-BF25-DE0681DE8244</key>
+		<string>ssh://git.corp.yahoo.com/zmyu/kxui.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KxUI-iOS/KxUI.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>32C70F35-1B6F-4220-BF25-DE0681DE8244</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://git.corp.yahoo.com/zmyu/kxui.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>32C70F35-1B6F-4220-BF25-DE0681DE8244</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>32C70F35-1B6F-4220-BF25-DE0681DE8244</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kxui</string>
+		</dict>
+	</array>
+</dict>
+</plist>

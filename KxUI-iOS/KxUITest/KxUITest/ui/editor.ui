@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+    <layout>
+        <hbox id="root" >
+            <hbox id="pane" height="480" width="320" margin="2,1,2,2"/>
+            
+            <vbox spread="true" vertical-spread="true" margin="2,2,2,1">
+                <hbox>
+                    <hbox id="update" width="150" height="26"></hbox>
+                </hbox>
+                <hbox id="text" spread="true" vertical-spread="true"/>
+            </vbox>
+            
+        </hbox>
+    </layout>
+</ui>

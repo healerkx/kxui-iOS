@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+    <layout>
+        <!-- All the UI elements' alignment is center -->
+        <vbox id="root" align="center">
+            
+            <hbox id="logo" width="212" height="37" margin="40, 0, 40, 0"
+                background-image="Assets/yaccounts_logo_purple@2x"></hbox>
+            
+            <!-- type can be set, such as text, password, button -->
+            <hbox id="username" type="textbox" width="271" height="42" padding="10,10,15,10"
+                background-image="Assets/field_text_single_up@2x"></hbox>
+            
+            <!-- margin-top can be Negative value -->
+            <hbox id="password" type="password" width="271" height="42" margin-top="-1" padding="5,10,10,10"
+                background-image="Assets/field_text_single_down@2x"></hbox>
+            
+            <!-- Notice button.content, button.click -->
+            <hbox id="signin" type="button" button.image="Assets/yaccounts_btn_purple@2x"
+                    button.content="Sign In" button.click="onSignIn:" background-image="Assets/yaccounts_btn_blue@2x"
+                    width="271" height="42" margin="10, 5, 10, 5" ></hbox>
+            
+            <!-- NOTICE: vertical-spread -->
+            <vbox align="center" vertical-align="bottom" vertical-spread="true" spread="true">
+                
+                <!-- $ -->
+            	<hbox id="create-account" type="button"
+                        button.content="Create Account" button.click="onCreateAccount:"
+                        button.image="Assets/yaccounts_btn_blue@2x"
+                        width="271" height="42" margin-bottom="10"/>
+                <!-- text attribute used for static string -->
+            	<hbox id="terms" height="50" spread="true" margin-bottom="10" content-align="center"
+                        text="4.0-inch Screen (Notice the margin-bottom)"/>
+
+            </vbox>
+        </vbox>
+    </layout>
+</ui>

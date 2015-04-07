@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui>
+    <styles>
+        <style name="title" font-size="16" bold="true"></style>
+        <style name="sub-title" font-size="14" font-color="#888888" font-highlight-color="#FFFFFF"></style>
+    </styles>
+    <layout>
+        <vbox id="root" align="center" height="100" width="100">
+            
+            <hbox id="text-content" style="title" text="id also text-content." height="50" spread="true"/>
+            <vbox id="image" spread="true"/>
+
+        </vbox>
+    </layout>
+</ui>
