@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60173E061FE0FDCD005BF152 /* libclang.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60173E051FE0FDCD005BF152 /* libclang.dylib */; };
 		6020082C1646BC54006707F0 /* KxUIXmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 602008231646BC54006707F0 /* KxUIXmlParser.h */; };
 		6020082D1646BC54006707F0 /* rapidxml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 602008271646BC54006707F0 /* rapidxml.hpp */; };
 		6020082E1646BC54006707F0 /* rapidxml_iterators.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 602008281646BC54006707F0 /* rapidxml_iterators.hpp */; };
@@ -56,7 +57,6 @@
 		F25F592317BA15A5008CDAA3 /* KxTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F25F592217BA15A5008CDAA3 /* KxTheme.m */; };
 		F27637FA1767265900F877FC /* KxDataEx.h in Headers */ = {isa = PBXBuildFile; fileRef = F27637F81767265900F877FC /* KxDataEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F27637FB1767265900F877FC /* KxDataEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F27637F91767265900F877FC /* KxDataEx.m */; };
-		F28929161840AD3F006517DE /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F28929151840AD3F006517DE /* libc++.dylib */; };
 		F2DDE47A178BFCA3001E5513 /* NSString+KxUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DDE478178BFCA3001E5513 /* NSString+KxUI.h */; };
 		F2DDE47B178BFCA3001E5513 /* UIColor+KxUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DDE479178BFCA3001E5513 /* UIColor+KxUI.h */; };
 		F2E4F14E178574EB00796111 /* UIColor+KxUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E4F14C178574EB00796111 /* UIColor+KxUI.m */; };
@@ -76,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		60173E051FE0FDCD005BF152 /* libclang.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libclang.dylib; path = ../../../../../../../../Library/Developer/CommandLineTools/usr/lib/libclang.dylib; sourceTree = "<group>"; };
 		602008231646BC54006707F0 /* KxUIXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxUIXmlParser.h; sourceTree = "<group>"; };
 		602008251646BC54006707F0 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 		602008261646BC54006707F0 /* manual.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = manual.html; sourceTree = "<group>"; };
@@ -125,7 +126,8 @@
 		6053BFD11646A2FD007D0B13 /* KxUIQueryWithBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxUIQueryWithBind.h; path = KxUI/Headers/KxUIQueryWithBind.h; sourceTree = "<group>"; };
 		6053BFE11646A324007D0B13 /* KxStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxStyle.h; path = KxUI/Headers/KxStyle.h; sourceTree = "<group>"; };
 		6053BFE21646A324007D0B13 /* KxStyles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxStyles.h; path = KxUI/Headers/KxStyles.h; sourceTree = "<group>"; };
-		F24B6399174F07F300B27EAB /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/usr/lib/libc++.dylib"; sourceTree = "<absolute>"; };
+		60FB121A1DEFD08B008B3201 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		60FB121C1DEFD0D4008B3201 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		F24DC18D1778F27800566844 /* WidgetsFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidgetsFactory.h; path = KxUI/Widgets/WidgetsFactory.h; sourceTree = "<group>"; };
 		F24DC18E1778F27800566844 /* WidgetsFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WidgetsFactory.m; path = KxUI/Widgets/WidgetsFactory.m; sourceTree = "<group>"; };
 		F250FEF8177FF60D00AA8E4D /* Features.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Features.txt; sourceTree = "<group>"; };
@@ -133,7 +135,6 @@
 		F25F592217BA15A5008CDAA3 /* KxTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxTheme.m; sourceTree = "<group>"; };
 		F27637F81767265900F877FC /* KxDataEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KxDataEx.h; path = KxUI/Headers/KxDataEx.h; sourceTree = "<group>"; };
 		F27637F91767265900F877FC /* KxDataEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KxDataEx.m; path = ../Headers/KxDataEx.m; sourceTree = "<group>"; };
-		F28929151840AD3F006517DE /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		F2DDE478178BFCA3001E5513 /* NSString+KxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+KxUI.h"; path = "KxUI/Headers/NSString+KxUI.h"; sourceTree = "<group>"; };
 		F2DDE479178BFCA3001E5513 /* UIColor+KxUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KxUI.h"; path = "KxUI/Headers/UIColor+KxUI.h"; sourceTree = "<group>"; };
 		F2E4F14C178574EB00796111 /* UIColor+KxUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KxUI.m"; sourceTree = "<group>"; };
@@ -144,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28929161840AD3F006517DE /* libc++.dylib in Frameworks */,
+				60173E061FE0FDCD005BF152 /* libclang.dylib in Frameworks */,
 				60251FA016455D7100C1F490 /* CoreGraphics.framework in Frameworks */,
 				60251F9E16455D4900C1F490 /* UIKit.framework in Frameworks */,
 				60251EFE1645596800C1F490 /* Foundation.framework in Frameworks */,
@@ -195,8 +196,9 @@
 		60251EFC1645596800C1F490 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F28929151840AD3F006517DE /* libc++.dylib */,
-				F24B6399174F07F300B27EAB /* libc++.dylib */,
+				60173E051FE0FDCD005BF152 /* libclang.dylib */,
+				60FB121C1DEFD0D4008B3201 /* libc++.tbd */,
+				60FB121A1DEFD08B008B3201 /* libc++.1.tbd */,
 				60251F9F16455D7100C1F490 /* CoreGraphics.framework */,
 				60251F9D16455D4900C1F490 /* UIKit.framework */,
 				60251EFD1645596800C1F490 /* Foundation.framework */,
@@ -492,8 +494,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -524,7 +526,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -533,7 +536,7 @@
 		60251F091645596800C1F490 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_LINK_OBJC_RUNTIME = YES;
@@ -551,8 +554,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
 				GENERATE_MASTER_OBJECT_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				KEEP_PRIVATE_EXTERNS = NO;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -562,7 +567,7 @@
 		60251F0A1645596800C1F490 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_LINK_OBJC_RUNTIME = YES;
@@ -580,8 +585,10 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = NO;
 				GENERATE_MASTER_OBJECT_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				KEEP_PRIVATE_EXTERNS = NO;
 				LINK_WITH_STANDARD_LIBRARIES = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

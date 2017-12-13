@@ -20,7 +20,7 @@
 
 @interface CatalogItem : NSObject
 @property (strong) NSString*    title;
-@property (strong) NSString*    description;
+// @property (strong) NSString*    description;
 @property (copy)   void(^controller)();
 
 + (CatalogItem*)itemFromTitle:(NSString*)title
@@ -35,10 +35,16 @@
 {
     CatalogItem* item = [[CatalogItem alloc] init];
     item.title = title;
-    item.description = description;
+    // item.description = description;
     item.controller = controller;
     return item;
 }
+- (NSString *)description
+{
+    return nil;
+}
+
+
 @end
 
 
